@@ -1,0 +1,89 @@
+# # ── Web framework ─────────────────────────────────────────────
+# fastapi
+# uvicorn[standard]
+# python-multipart        # for file uploads
+
+# # ── PDF parsing ───────────────────────────────────────────────
+# unstructured[all-docs]
+# unstructured-inference
+
+# pillow
+
+# # ── LLM ──────────────────────────────────────────────────────
+# groq
+# # ── Embeddings ───────────────────────────────────────────────
+# fastembed
+# # ── Vector store ─────────────────────────────────────────────
+# qdrant-client
+
+# # ── LangChain (Document class only) ──────────────────────────
+# langchain-core
+
+# # ── Config ───────────────────────────────────────────────────
+# python-dotenv
+# # ── Typing ───────────────────────────────────────────────────
+# pydantic
+
+# sentence
+
+
+# huggingface_hub
+# transformers
+# datasets
+# accelerate
+
+# sentence-transformers
+
+# faiss-cpu
+
+
+
+
+# ── Web framework ─────────────────────────────────────────────
+fastapi
+uvicorn[standard]
+python-multipart
+
+# ── PDF parsing ───────────────────────────────────────────────
+unstructured[all-docs]
+unstructured-inference
+pillow
+
+# ── LLM ───────────────────────────────────────────────────────
+groq
+
+# ── Hugging Face ──────────────────────────────────────────────
+huggingface_hub
+transformers
+datasets
+accelerate
+
+# ── Embeddings ────────────────────────────────────────────────
+fastembed
+sentence-transformers
+
+# ── Vector store ──────────────────────────────────────────────
+qdrant-client
+
+# ── LangChain core only ───────────────────────────────────────
+langchain-core
+
+# ── Config ────────────────────────────────────────────────────
+python-dotenv
+
+# ── Typing / utils ────────────────────────────────────────────
+pydantic
+
+# ── Optional utilities ────────────────────────────────────────
+tokenizers
+tiktoken
+
+
+
+langchain-text-splitters
+
+
+llama-cloud
+
+
+pymupdf
