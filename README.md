@@ -189,13 +189,3 @@ L7  build_qdrant_index()       create collection with 3 vector configs
 ```
 
 ---
-
-## Bugs Fixed from Original Notebook
-
-| Bug | Impact | Fix |
-|-----|--------|-----|
-| `return` inside `for` loop in `hybrid_search` | Only 1 result returned always | Moved `return` outside loop |
-| `create_summary` commented out | Images/tables had no descriptions | Enabled with Groq vision |
-| Metadata stored as nested JSON string | Payload parsing failures | Flat metadata dict |
-| Prefetch limit=10 | Only 20 candidates for reranking | Raised to 20 each (40 total) |
-| Qdrant API key hardcoded | Security risk | Moved to .env |
